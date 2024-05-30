@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+* {
+    font-family: 'Poppins', Arial, sans-serif;
+    color: rgb(35, 38, 47);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 4px;
+}
+
+p {
+    color: rgb(119, 126, 144);
+    font-size: 13px;
+}
+
+button {
+    background-color: rgb(68, 65, 248);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 22px;
+    border-radius: 90px;
+}
+
+.app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Dashboard */
+.dashboard {
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard .dashboard-info-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0 50px 0;
+}
+
+.dashboard .dashboard-info-container p {
+    font-size: 16px;
+}
+
+/* Header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: rgb(151, 151, 151) solid 1px;
+}
+
+header .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+header .header-container .header-item-container .logo {
+    height: 45px;
+}
+
+header .header-container .header-item-container {
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+}
+
+header .header-container .header-item-container .avatar {
+    height: 39px;
+    border-radius: 50%;
+}
+
+header .header-container .header-item-container p {
+    margin: 0 20px;
+}
+
+/* Card */
+.card-container {
+    width: 300px;
+    height: 550px;
+    border-radius: 16px;
+    margin-bottom: 35px;
+    box-shadow: 0 10px 24px 10px rgb(0, 0, 0, 0.08);
+    background-color: rgb(247, 247, 247);
+}
+
+.card-container .img-container {
+    width: 300px;
+    height: 420px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+.card-container .img-container img {
+    width: 200%;
+}
+
+.card-container .info-container {
+    padding: 12px 18px;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(32, 32, 34);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-container {
+    width: 74%;
+    padding: 40px;
+}
+
+footer .footer-container .logo {
+    height: 70px;
+}
