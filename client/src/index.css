@@ -25,6 +25,10 @@ p {
     font-size: 13px;
 }
 
+#link {
+    text-decoration: none;
+}
+
 button {
     background-color: rgb(68, 65, 248);
     border: none;
@@ -59,6 +63,13 @@ button {
 
 .dashboard .dashboard-info-container p {
     font-size: 16px;
+}
+
+.posts-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 /* Header */
@@ -118,6 +129,18 @@ header .header-container .header-item-container p {
 
 .card-container .info-container {
     padding: 12px 18px;
+}
+
+/* Tag */
+.tag-container {
+    display: flex;
+}
+.tag-container .tag {
+    background-color: rgb(230, 232, 236);
+    padding: 7px 14px;
+    margin-right: 4px;
+    border-radius: 20px;
+    font-size: 13px;
 }
 
 /* Footer */

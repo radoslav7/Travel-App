@@ -1,0 +1,15 @@
+{
+    "id": 0,
+    "title": "Lofoten Items",
+    "address": {
+        "line": "House 45",
+        "town": "Flakstad",
+        "region": "Lofoten",
+        "country": "Norway",
+        "coords": [13.615140, 68.148995]
+    },
+    "photo": "https://img.freepik.com/premium-photo/breathtaking-panorama-morning-wild-nature-high-mountains_211251-614.jpg?w=1380",
+    "website": "https://img.freepik.com/",
+    "description": "Stunning mountain photography",
+    "tags": ["nature", "hiking", "mountains"]
+}

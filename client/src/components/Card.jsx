@@ -1,11 +1,21 @@
-const Card = () => {
+import Tag from './Tag';
+
+const Card = ({ post }) => {
     return (
         <div className="card-container">
-            <div className="img-container">{/* <img src="" alt="" /> */}</div>
+            <div className="img-container">
+                <img src={post.photo} alt={` A photo of ${post.title}`} />
+            </div>
             <div className="info-container">
-                <h3>TITLE</h3>
-                <p>DESCRIPTION</p>
-                <div className="tag-continer"></div>
+                <h3>{post.title}</h3>
+                <p>{post.description}</p>
+                {post.tags && (
+                    <div className="tag-container">
+                        {post.tags.map((tag, _index) => (
+                            <Tag key={_index} tag={tag} />
+                        ))}
+                    </div>
+                )}
             </div>
         </div>
     );

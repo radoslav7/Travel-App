@@ -7,7 +7,6 @@ import Footer from './components/Footer';
 const App = () => {
     return (
         <>
-            {console.log('home')}
             <BrowserRouter>
                 <Header />
                 <Routes>
